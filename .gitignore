@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+.env
+./
+env/
+venv/
+ENV/
+
+# Alembic migrations cache
+migrations/versions/*.pyc
+
+# SQLite database
+travel_planner.db
+
+# IDE / Editor
+.vscode/
+.idea/
+.venv/
+*.swp
+*.swo
+
+# Docker
+*.pid
+*.seed
+*.bak
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
