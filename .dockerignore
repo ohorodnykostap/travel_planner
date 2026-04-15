@@ -1,0 +1,27 @@
+# Python
+.venv
+__pycache__/
+*.pyc
+
+# Tests / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+.env
+
+# Docker
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
